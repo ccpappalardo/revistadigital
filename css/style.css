@@ -102,11 +102,6 @@ nav {
 nav ul {
   list-style: none;
 }
-/*
-nav ul li {
-  display: inline-block;
-  padding: 0.5em;
-}*/
 
 nav div a:hover {
   color: #fcf6f6;
@@ -413,11 +408,6 @@ iframe {
   .footer-main-item {
     display: none;
   }
-  /*
-  nav ul li {
-    display: none;
-  }
-  */
 
   .fotografia-pagina-articulo-galeria {
     margin-top: 0.5em;
@@ -549,14 +539,6 @@ iframe {
     width: 100%;
     height: auto;
   }
-  /*
-  .literatura {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-gap: 20px;
-  }
-  */
 
   .podcast {
     display: grid;
@@ -583,10 +565,7 @@ iframe {
   .fotografia .articulo img {
     object-fit: cover;
   }
-  /*
-  nav ul li {
-    display: none;
-  }*/
+
   .ft-legal ul li a {
     display: none;
   }
@@ -601,11 +580,6 @@ iframe {
   .footer-main-item {
     display: none;
   }
-  /*
-  .podcast-pagina-articulo img {
-    width: 80%;
-    height: auto;
-  }*/
 
   .fotografia-pagina-articulo-galeria img {
     width: 80%;
