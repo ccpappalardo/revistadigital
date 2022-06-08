@@ -17,6 +17,7 @@ html {
   background-color: aquamarine;
   width: 100%;
   height: 400px;
+  position: relative;
   background: url("../assets/images/juansola.jpg") no-repeat 0 center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -36,6 +37,18 @@ html {
 .btn-flotante {
   text-decoration: none;
   color: #5628ba;
+}
+
+.literatura .articulo img {
+  object-fit: cover;
+}
+
+.podcast .articulo img {
+  object-fit: cover;
+}
+
+.fotografia .articulo img {
+  object-fit: cover;
 }
 
 /* FUENTES - ESTILOS */
@@ -137,7 +150,6 @@ nav ul li a:hover {
   padding: 10px 20px;
   text-decoration: none;
   color: #5628ba;
-  /*padding: 0.1em;*/
   border: 0.01em solid rgb(104, 98, 111);
 }
 
@@ -393,16 +405,8 @@ iframe {
     display: block;
   }
 
-  .literatura .articulo img {
-    object-fit: cover;
-  }
-
-  .podcast .articulo img {
-    object-fit: cover;
-  }
-
-  .fotografia .articulo img {
-    object-fit: cover;
+  #subscribite {
+    display: none;
   }
 
   .footer-main-item {
@@ -457,47 +461,8 @@ iframe {
   #menu-mobile {
     display: none;
   }
-  /*
-  .literatura {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-gap: 20px;
-  }
-
-  .podcast {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-gap: 20px;
-  }
-
-  .fotografia {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-gap: 20px;
-  }*/
-
-  /*
-  nav ul {
+  #subscribite {
     display: none;
-  }
-  
-  nav ul li a {
-    display: none;
-  }*/
-
-  .literatura .articulo img {
-    object-fit: cover;
-  }
-
-  .podcast .articulo img {
-    object-fit: cover;
-  }
-
-  .fotografia .articulo img {
-    object-fit: cover;
   }
 
   .footer-main-item {
@@ -554,18 +519,6 @@ iframe {
     grid-gap: 20px;
   }
 
-  .literatura .articulo img {
-    object-fit: cover;
-  }
-
-  .podcast .articulo img {
-    object-fit: cover;
-  }
-
-  .fotografia .articulo img {
-    object-fit: cover;
-  }
-
   .ft-legal ul li a {
     display: none;
   }
@@ -574,6 +527,10 @@ iframe {
     display: block;
   }
   #menu-desktop {
+    display: none;
+  }
+
+  #subscribite {
     display: none;
   }
 
